@@ -1,0 +1,20 @@
+{"id": 1, "query": "How many PRs were merged last week?", "expected_agent": "engineering", "expected_contains": ["7"]}
+{"id": 2, "query": "Are there any critical bugs open?", "expected_agent": "engineering", "expected_contains": ["1"]}
+{"id": 3, "query": "What is our total open pipeline value?", "expected_agent": "sales", "expected_contains": ["250"]}
+{"id": 4, "query": "How much revenue have we already won?", "expected_agent": "sales", "expected_contains": ["210"]}
+{"id": 5, "query": "Which deals is Tom working on?", "expected_agent": "sales", "expected_contains": ["Globex"]}
+{"id": 6, "query": "Who are the main competitors in cloud CRM?", "expected_agent": "research", "expected_contains": ["Salesforce"]}
+{"id": 7, "query": "What are current trends in AI agents?", "expected_agent": "research", "expected_contains": ["agent"]}
+{"id": 8, "query": "How many open issues are on GitHub?", "expected_agent": "engineering", "expected_contains": ["12"]}
+{"id": 9, "query": "Give me a summary of our sales forecast", "expected_agent": "sales", "expected_contains": ["deal"]}
+{"id": 10, "query": "What is the latest news in the semiconductor market?", "expected_agent": "research", "expected_contains": ["market"]}
+{"id": 11, "query": "How is the engineering team performing this quarter?", "expected_agent": "engineering", "expected_contains": ["PR"]}
+{"id": 12, "query": "What's our biggest deal right now?", "expected_agent": "sales", "expected_contains": ["Hooli"]}
+{"id": 13, "query": "Should we be worried about the competition?", "expected_agent": "research", "expected_contains": ["competitor"]}
+{"id": 14, "query": "What is the total value of deals still being negotiated or proposed?", "expected_agent": "sales", "expected_contains": ["205"]}
+{"id": 15, "query": "How many deals does Sara own and what are they worth in total?", "expected_agent": "sales", "expected_contains": ["180"]}
+{"id": 16, "query": "What is the health of our codebase?", "expected_agent": "engineering", "expected_contains": ["issue"]}
+{"id": 17, "query": "Are we going to hit our revenue numbers?", "expected_agent": "sales", "expected_contains": ["pipeline"]}
+{"id": 18, "query": "What deals does Priya own?", "expected_agent": "sales", "expected_contains": ["Hooli"]}
+{"id": 19, "query": "Summarize where the product stands technically.", "expected_agent": "engineering", "expected_contains": ["merged"]}
+{"id": 20, "query": "Is Microsoft a threat to us?", "expected_agent": "research", "expected_contains": ["Microsoft"]}

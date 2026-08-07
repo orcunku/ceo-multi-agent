@@ -1,0 +1,11 @@
+id,query,expected_agent,routed,confidence,answer,contains_ok,error
+1,How many PRs were merged last week?,engineering,engineering,1.0,There were 7 PRs merged last week.,True,
+2,Are there any critical bugs open?,engineering,engineering,1.0,There is 1 critical bug open.,True,
+3,What is our total open pipeline value?,sales,sales,1.0,"The total open pipeline value is $250,000.",True,
+4,How much revenue have we already won?,sales,sales,1.0,"We have already won $210,000 in revenue.",True,
+5,Which deals is Tom working on?,sales,sales,1.0,"Tom is working on the following deals:  - Globex ($85,000, Proposal stage, close date: 2026-08-30) - Umbrella ($45,000, Qualification stage, close date: 2026-10-01)",True,
+6,Who are the main competitors in cloud CRM?,research,research,0.9,The main competitors in cloud CRM (Customer Relationship Management) are:  1. Salesforce: A leading cloud-based CRM platform with a wide range of features and integrations. 2. Microsoft Dynamics 365: ,True,
+7,What are current trends in AI agents?,research,research,0.9,"Current trends in AI agents include:  1. **Explainability and Transparency**: There is a growing emphasis on developing AI models that can provide clear explanations for their decisions, increasing tr",True,
+8,How many open issues are on GitHub?,engineering,engineering,1.0,There are 12 open issues on GitHub.,True,
+9,Give me a summary of our sales forecast,sales,sales,0.8,"Based on the pipeline data, here's a summary of our sales forecast:  - Total pipeline value: $250,000 - Total deals in the pipeline: 3 - Deals in Negotiation stage: 1 (Acme Corp, $120,000) - Deals in ",True,
+10,What is the latest news in the semiconductor market?,research,research,0.8,"The semiconductor market has seen significant developments in recent years. Some key trends include:  1. **Chip shortages**: The global chip shortage, caused by supply chain disruptions and high deman",True,
