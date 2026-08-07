@@ -1,4 +1,4 @@
-# 🤖 CEO Multi-Agent System
+# CEO Multi-Agent System
 
 A multi-agent AI assistant for a company executive. A central **Orchestrator** agent
 routes each question to the right **department agent** (Engineering, Sales, Research),
@@ -10,7 +10,7 @@ which answers using real data — not guesses. Built with a strong focus on
 
 ---
 
-## 🧠 How it works
+## How it works
 
 ```
                  ┌─────────────────────────────┐
@@ -36,7 +36,7 @@ new agents plug in without changing routing logic.
 
 ---
 
-## 📊 Evaluation & Results
+## Evaluation & Results
 
 The project includes an evaluation harness (`eval/`) with 20 labelled test cases
 covering routing, exact-number correctness, and deliberately ambiguous queries.
@@ -62,7 +62,7 @@ Telling these apart — and fixing each correctly — is the heart of the projec
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 # 1. Install dependencies
@@ -81,7 +81,7 @@ python -m eval.run_eval
 
 ---
 
-## 🗂️ Project structure
+##  Project structure
 
 ```
 ceo-multi-agent/
@@ -102,7 +102,7 @@ ceo-multi-agent/
 
 ---
 
-## 🔧 Tech stack
+##  Tech stack
 
 - **LLM:** Groq (Llama 3.1 8B) — free tier, fast. Swappable to Google Gemini in one setting.
 - **Language:** Pure Python — no heavy local dependencies.
@@ -110,7 +110,7 @@ ceo-multi-agent/
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 
 - Real GitHub API and Google Sheets integrations (interfaces already in place)
 - Web search + retrieval (RAG) for the Research agent
@@ -120,7 +120,7 @@ ceo-multi-agent/
 
 ---
 
-## 💡 Design decisions worth noting
+##  Design decisions worth noting
 
 1. **Tools compute, LLMs phrase** — numbers are never invented.
 2. **Routing is isolated and measured** — the #1 failure point gets its own metric.
