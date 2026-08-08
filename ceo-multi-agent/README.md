@@ -1,5 +1,6 @@
 # CEO Multi-Agent System
-
+### 🌐 [**Try the Live Demo →**](https://ceo-multi-agent-mnbhwnldk5nv2per92ovpb.streamlit.app/)
+https://ceo-multi-agent-mnbhwnldk5nv2per92ovpb.streamlit.app/
 A multi-agent AI assistant for a company executive. A central **Orchestrator** agent
 routes each question to the right **department agent** (Engineering, Sales, Research),
 which answers using real data — not guesses. Built with a strong focus on
